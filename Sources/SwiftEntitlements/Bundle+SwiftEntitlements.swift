@@ -3,9 +3,8 @@
 //
 
 import Foundation
-import UIKit
 
-public extension UIApplication {
+public extension Bundle {
 
     var entitlements: Entitlements {
         let bundle = Bundle.main
