@@ -6,7 +6,7 @@ import Foundation
 
 public extension Bundle {
 
-    var entitlements: Entitlements {
+    static var entitlements: Entitlements {
         let bundle = Bundle.main
         guard let executableName = bundle.infoDictionary?["CFBundleExecutable"] as? String else {
             return .empty
